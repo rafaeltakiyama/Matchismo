@@ -6,7 +6,7 @@
 //  Copyright © 2016 rafaeltakiyama. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "CardGameViewController.h"
 
 @interface ViewController ()
 

@@ -6,7 +6,7 @@
 //  Copyright © 2016 rafaeltakiyama. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "CardGameAppDelegate.h"
 
 @interface AppDelegate ()
 

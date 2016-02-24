@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		0E881E0D1C7D348A00CC30CF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E0C1C7D348A00CC30CF /* main.m */; };
-		0E881E101C7D348A00CC30CF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E0F1C7D348A00CC30CF /* AppDelegate.m */; };
-		0E881E131C7D348A00CC30CF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E121C7D348A00CC30CF /* ViewController.m */; };
+		0E881E101C7D348A00CC30CF /* CardGameAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E0F1C7D348A00CC30CF /* CardGameAppDelegate.m */; };
+		0E881E131C7D348A00CC30CF /* CardGameViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E121C7D348A00CC30CF /* CardGameViewController.m */; };
 		0E881E161C7D348A00CC30CF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0E881E141C7D348A00CC30CF /* Main.storyboard */; };
 		0E881E191C7D348A00CC30CF /* Matchismo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 0E881E171C7D348A00CC30CF /* Matchismo.xcdatamodeld */; };
 		0E881E1B1C7D348A00CC30CF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0E881E1A1C7D348A00CC30CF /* Assets.xcassets */; };
@@ -38,10 +38,10 @@
 /* Begin PBXFileReference section */
 		0E881E081C7D348A00CC30CF /* Matchismo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Matchismo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0E881E0C1C7D348A00CC30CF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0E881E0E1C7D348A00CC30CF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0E881E0F1C7D348A00CC30CF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0E881E111C7D348A00CC30CF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0E881E121C7D348A00CC30CF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0E881E0E1C7D348A00CC30CF /* CardGameAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameAppDelegate.h; sourceTree = "<group>"; };
+		0E881E0F1C7D348A00CC30CF /* CardGameAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameAppDelegate.m; sourceTree = "<group>"; };
+		0E881E111C7D348A00CC30CF /* CardGameViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CardGameViewController.h; sourceTree = "<group>"; };
+		0E881E121C7D348A00CC30CF /* CardGameViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CardGameViewController.m; sourceTree = "<group>"; };
 		0E881E151C7D348A00CC30CF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0E881E181C7D348A00CC30CF /* Matchismo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Matchismo.xcdatamodel; sourceTree = "<group>"; };
 		0E881E1A1C7D348A00CC30CF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -103,10 +103,10 @@
 		0E881E0A1C7D348A00CC30CF /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
-				0E881E0E1C7D348A00CC30CF /* AppDelegate.h */,
-				0E881E0F1C7D348A00CC30CF /* AppDelegate.m */,
-				0E881E111C7D348A00CC30CF /* ViewController.h */,
-				0E881E121C7D348A00CC30CF /* ViewController.m */,
+				0E881E0E1C7D348A00CC30CF /* CardGameAppDelegate.h */,
+				0E881E0F1C7D348A00CC30CF /* CardGameAppDelegate.m */,
+				0E881E111C7D348A00CC30CF /* CardGameViewController.h */,
+				0E881E121C7D348A00CC30CF /* CardGameViewController.m */,
 				0E881E141C7D348A00CC30CF /* Main.storyboard */,
 				0E881E1A1C7D348A00CC30CF /* Assets.xcassets */,
 				0E881E1C1C7D348A00CC30CF /* LaunchScreen.storyboard */,
@@ -273,8 +273,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E881E131C7D348A00CC30CF /* ViewController.m in Sources */,
-				0E881E101C7D348A00CC30CF /* AppDelegate.m in Sources */,
+				0E881E131C7D348A00CC30CF /* CardGameViewController.m in Sources */,
+				0E881E101C7D348A00CC30CF /* CardGameAppDelegate.m in Sources */,
 				0E881E0D1C7D348A00CC30CF /* main.m in Sources */,
 				0E881E191C7D348A00CC30CF /* Matchismo.xcdatamodeld in Sources */,
 			);
